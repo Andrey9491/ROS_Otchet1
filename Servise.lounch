@@ -1,0 +1,8 @@
+<launch>
+    <node name="Request" pkg="study_pkg" type="Request.py" output="screen">
+    </node>
+    <node name="Polynomial" pkg="study_pkg" type="Polynomial.py" output="screen">
+    </node>
+    <node name="Summing" pkg="study_pkg" type="Summing.py" output="screen">
+    </node>
+</launch>
